@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+
+/*styles from here are only focusing on the div container of the form*/
+#searchContainer{
+    box-sizing: border-box;
+    height: 95.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fresca', sans-serif;
+    color: #fff;
+}
+
+form{
+    width: 35%;
+    height: 55%;
+    color: #fff;
+}
+
+.search{
+    color: white;
+}
+
+[class*=formSearchChild]{
+    display: block;
+    background: transparent;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 4% auto;
+    text-align: center;
+    width: 81%;
+    font-size: large;
+    font-weight: 500;
+    
+}
+
+label{
+    text-align: center;
+    font-size: large;
+    font-weight: 555;
+}
+
+option{
+    background: #0eb3ad; 
+    font-weight: 555;
+    border: blue;
+    color: #fff;
+}
+
+#submitBtn:hover{
+    background: #68686840;
+    color: #fff;
+}

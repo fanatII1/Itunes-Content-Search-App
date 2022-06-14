@@ -1,0 +1,61 @@
+/*styles here are focused on the Movie Component*/
+#ebookRender{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.ebookContentContainer{
+    display: flex;
+    background: #222222b0;
+    margin: 2%;
+    transition: .6s;
+}
+
+.ebookContentContainer:hover{
+    display: flex;
+    background: #222222b0;
+    margin: 2%;
+    transform: scale(1.08);
+}
+
+
+.ebook-description{
+    color: #fff;
+    font-size: larger;
+}
+
+button{
+    padding: 2%;
+    border: 1px double #fff;
+    border-radius: 10px;
+    background: #00000036;
+    color: #f1f1f1;
+    font-weight: bolder;
+    transition: .2s;
+}
+
+button:hover{
+    padding: 2%;
+    border-radius: 1px;
+    background: #0000006e;
+    color: #f1f1f1;
+    font-weight: bolder;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: 100%;;
+}
+
+[class*=ebookDescription]{
+    margin-left: 2%;
+    width: 70%;
+    height: 100%;
+}
+
+p, button{
+    margin-left: 2%;
+}

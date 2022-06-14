@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    background: linear-gradient(0deg, #2d422c, #12fff7 );
+    font-family: 'Fresca', sans-serif;
+}
+
+#root{
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*styles from here focus on the Navbar*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #4242428f;
+    padding: 1.2%
+}
+
+#navigation-links{
+    width: 60%;
+}
+
+h1{
+    color: white;
+}
+
+ul li{
+    display: inline-block;
+    margin: 2.6% 5%;
+}
+
+ul li a {
+    background-color: #444444c7;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 6%;
+    font-size: large;
+    font-weight: 500;
+}
+
+#empty-search{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
