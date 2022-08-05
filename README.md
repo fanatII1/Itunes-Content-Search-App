@@ -1,5 +1,6 @@
 # Itunes-Content-Search-Web-App
-Itunes Content Search web app. Built with the main focus of removing the hassle of a person having to navigate the entire iStore website for content. Rather, a user can go into the Itunes Content Search web app, and immediately browse what's on the iStore
+Itunes Content Search web app. Built with the main focus of removing the hassle of a person having to navigate the entire iStore website for content. Rather, a user can go into the Itunes Content Search web app, and immediately browse what's on the iStore.
+* Live Project: [Link](https://itunes-content-search-app.herokuapp.com/)
 
 ## Technologies used :
 * ReactJS(frontend)
